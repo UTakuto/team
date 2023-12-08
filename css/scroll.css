@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* .scrollContent {
+  margin-top: 150px;
+} */
+
+.scrollWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  display: none;
+  height: 200px;
+}
+
+.scroll li:first-child {
+  display: block;
+}
+
+li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
